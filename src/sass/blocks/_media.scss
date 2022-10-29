@@ -39,6 +39,10 @@
             justify-content: center;
         }
     }
+    .timer {
+        padding: 0 200px;
+        justify-content: space-around;
+    }
     .contacts {
         &__wrapper {
             padding: 80px 10px;
@@ -124,6 +128,10 @@
     //         gap: 10px;
     //     }
     // }
+    .timer {
+        padding: 0 115px;
+    }
+
     .contacts {
         &__photo {
             display: none;
@@ -201,6 +209,9 @@
         &__progress {
             margin-top: 40px;
         }
+    }
+    .timer {
+        padding: 0;
     }
     .contacts {
         &__subtitle {
@@ -296,6 +307,16 @@
     //         grid-template-columns: repeat(auto-fit, 295px);
     //     }
     // }
+
+    .timer__block {
+        width: 80px;
+        height: 100px;
+        font-size: 16px;
+        span {
+            margin-top: 0;
+        }
+    } 
+    
     .contacts {
         &__wrapper {
             grid-template-columns: 1fr;
